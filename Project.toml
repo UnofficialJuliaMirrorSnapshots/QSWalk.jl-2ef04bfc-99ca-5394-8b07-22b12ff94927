@@ -4,7 +4,7 @@ keywords = ["quantum walk", "quantum computing", "GKSL"]
 desc = "Simulator for stochastic quantum walk"
 authors = ["Adam Glos <aglos@iitis.pl>", "Jarosław Adam Miszczak <jmiszczak@iitis.pl>", "Mateusz Ostaszewski <mostaszewski@iitis.pl>"]
 licence = "MIT"
-version = "1.1.0"
+version = "1.1.1"
 
 [compat]
 julia = "1"
@@ -18,5 +18,5 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-[targest]
-test = ["SparseArrays", "LinearAlgebra", "Test"]
+[targets]
+test = ["Test"]

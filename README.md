@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/QuantumWalks/QSWalk.jl.svg?branch=master)](https://travis-ci.org/QuantumWalks/QSWalk.jl)
-[![Coverage Status](https://coveralls.io/repos/github/QuantumWalks/QSWalk.jl/badge.svg?branch=master)](https://coveralls.io/github/QuantumWalks/QSWalk.jl?branch=master)
-[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://QuantumWalks.github.io/QSWalk.jl/latest)
+[![Build Status](https://travis-ci.org/iitis/QSWalk.jl.svg?branch=master)](https://travis-ci.org/iitis/QSWalk.jl)
+[![Coverage Status](https://coveralls.io/repos/github/iitis/QSWalk.jl/badge.svg?branch=master)](https://coveralls.io/github/iitis/QSWalk.jl?branch=master)
+[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://iitis.github.io/QSWalk.jl/latest)
 [![DOI](https://zenodo.org/badge/100469695.svg)](https://zenodo.org/badge/latestdoi/100469695)
 
 
@@ -12,15 +12,13 @@
 
 ## Installation
 
-`QSWalk` requires [Expokit package for Julia](https://github.com/acroy/Expokit.jl), implementing some routines contained in [EXPOKIT](http://www.maths.uq.edu.au/expokit). This package will be installed automatically with `QSWalk` installation.
-
 The package can be installed simply with Pkg REPL:
 ```julia-repl
-(v1.0) pkg> add QSWalk 
+(v1.0) pkg> add QSWalk
 ```
 ## Examples
 
-Examples can be found in `examples` subdirectory. They require [QSWalk](https://github.com/QuantumWalks/QSWalk.jl), [LightGraphs](https://github.com/JuliaGraphs/LightGraphs.jl), and [PyPlot](https://github.com/JuliaPy/PyPlot.jl).
+Examples can be found in `examples` subdirectory. They require [QSWalk](https://github.com/iitis/QSWalk.jl), [LightGraphs](https://github.com/JuliaGraphs/LightGraphs.jl), and [PyPlot](https://github.com/JuliaPy/PyPlot.jl).
 
 ## Citing QSWalk
 
@@ -36,4 +34,5 @@ year = "2018",
 issn = "0010-4655",
 doi = "https://doi.org/10.1016/j.cpc.2018.09.001",
 author = "Glos, Adam and Miszczak, Jarosław Adam and Ostaszewski, Mateusz",
-}```
+}
+```
